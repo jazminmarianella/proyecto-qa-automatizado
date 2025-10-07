@@ -1,11 +1,11 @@
 Proyecto Final – Bootcamp Testing Automatizado
-📌 Descripción
+ Descripción
 
 Este proyecto implementa un framework de pruebas automatizadas para validar la funcionalidad de una aplicación Web y su API. El objetivo es cubrir casos de prueba críticos (positivos, negativos y de borde), asegurando calidad, confiabilidad y trazabilidad de los requisitos.
 
 El framework está construido con Python, Pytest, Selenium, Requests y Allure, y se integra con GitHub Actions para ejecutar pruebas de forma continua (CI/CD).
 
-🎯 Objetivos
+ Objetivos
 
 Diseñar un plan de pruebas completo
 
@@ -17,11 +17,11 @@ Generar reportes automáticos
 
 Integrar pipeline CI/CD
 
-🛠️ Tecnologías
+ Tecnologías
 
 Python, Pytest, Selenium, Requests, Allure, GitHub Actions
 
-📂 Estructura
+ Estructura
 
 proyecto-qa-automatizado/
 ├── README.md
@@ -35,7 +35,7 @@ proyecto-qa-automatizado/
 └── .github/
   └── workflows/
 
-🚀 Instalación
+ Instalación
 
 Clonar el repositorio:
 git clone https://github.com/usuario/proyecto-qa-automatizado.git
@@ -57,7 +57,7 @@ source venv/bin/activate
 Instalar dependencias:
 pip install -r requirements.txt
 
-▶️ Ejecución de pruebas
+ Ejecución de pruebas
 
 Para correr todos los tests:
 pytest -v tests/
